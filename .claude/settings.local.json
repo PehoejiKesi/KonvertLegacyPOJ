@@ -6,7 +6,15 @@
       "Bash(git branch:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "Bash(./gradlew tasks:*)",
+      "Bash(./gradlew publishToMavenLocal)",
+      "Bash(gpg --version)",
+      "Bash(gpg --list-secret-keys --keyid-format=long)",
+      "Bash(git push:*)",
+      "Bash(./gradlew jvmTest)",
+      "Bash(./gradlew jvmTest --info)",
+      "Bash(./gradlew clean:*)"
     ]
   }
 }

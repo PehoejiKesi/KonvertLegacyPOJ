@@ -7,8 +7,9 @@ class GenerateFileTest {
     @Test
     fun generateFile() {
         val inFile = File("/Users/hebi/Data/SourceCode/TaibunChoanbe/TanLekun_TanBengjin/PhahngEKoosu.txt")
+        if (!inFile.exists()) return
         val outFile = File("/Users/hebi/Data/SourceCode/TaibunChoanbe/TanLekun_TanBengjin/PhahngEKoosu_POJ.txt")
-        
+
         val text = inFile.readText(Charsets.UTF_8)
         val converted = KonvertLegacyPOJ.convertLegacyTpFontHackToUnicode(text)
         

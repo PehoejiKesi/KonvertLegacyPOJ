@@ -58,6 +58,18 @@ object KonvertLegacyPOJ {
         """u8""" to """u̍""",
         """u9""" to """ŭ""",
         """nn""" to """ⁿ""",
+        """ii""" to """ṳ""",
+        """ii2""" to """ṳ́""",
+        """ii3""" to """ṳ̀""",
+        """ii5""" to """ṳ̂""",
+        """ii7""" to """ṳ̄""",
+        """ii8""" to """ṳ̍""",
+        """Ii""" to """Ṳ""",
+        """Ii2""" to """Ṳ́""",
+        """Ii3""" to """Ṳ̀""",
+        """Ii5""" to """Ṳ̂""",
+        """Ii7""" to """Ṳ̄""",
+        """Ii8""" to """Ṳ̍""",
         """A2""" to """Á""",
         """A3""" to """À""",
         """A5""" to """Â""",
@@ -137,6 +149,16 @@ object KonvertLegacyPOJ {
         """u7""" to """ū""",
         """u8""" to """u̍""",
         """nn""" to """ⁿ""",
+        """ii""" to """ṳ""",
+        """ii2""" to """ṳ́""",
+        """ii3""" to """ṳ̀""",
+        """ii5""" to """ṳ̂""",
+        """ii8""" to """ṳ̍""",
+        """Ii""" to """Ṳ""",
+        """Ii2""" to """Ṳ́""",
+        """Ii3""" to """Ṳ̀""",
+        """Ii5""" to """Ṳ̂""",
+        """Ii8""" to """Ṳ̍""",
         """A7""" to """Ā""",
         """A8""" to """A̍""",
         """E7""" to """Ē""",
@@ -219,6 +241,16 @@ object KonvertLegacyPOJ {
         """u7""" to """ū""",
         """u8""" to """u̍""",
         """nn""" to """ⁿ""",
+        """ii""" to """ṳ""",
+        """ii2""" to """ṳ́""",
+        """ii3""" to """ṳ̀""",
+        """ii5""" to """ṳ̂""",
+        """ii8""" to """ṳ̍""",
+        """Ii""" to """Ṳ""",
+        """Ii2""" to """Ṳ́""",
+        """Ii3""" to """Ṳ̀""",
+        """Ii5""" to """Ṳ̂""",
+        """Ii8""" to """Ṳ̍""",
         """A2""" to """Á""",
         """A3""" to """À""",
         """A5""" to """Â""",
@@ -276,6 +308,8 @@ object KonvertLegacyPOJ {
         "U2" to "Ú", "U3" to "Ù", "U5" to "Û", "U7" to "Ū", "U8" to "U̍",
         "u2" to "ú", "u3" to "ù", "u5" to "û", "u7" to "ū", "u8" to "u̍",
         "a9" to "ă", "i9" to "ĭ", "u9" to "ŭ", "e9" to "ĕ", "o9" to "ŏ",
+        "ii0" to "ṳ", "ii2" to "ṳ́", "ii3" to "ṳ̀", "ii4" to "ṳ", "ii5" to "ṳ̂", "ii7" to "ṳ̄", "ii8" to "ṳ̍",
+        "II0" to "Ṳ", "II2" to "Ṳ́", "II3" to "Ṳ̀", "II4" to "Ṳ", "II5" to "Ṳ̂", "II7" to "Ṳ̄", "II8" to "Ṳ̍",
         "m9" to "m̆", "n9" to "n̆g", "A9" to "Ă", "I9" to "Ĭ", "U9" to "Ŭ", "E9" to "Ĕ", "O9" to "Ŏ", "M9" to "M̆", "N9" to "N̆g"
     )
 
@@ -299,6 +333,8 @@ object KonvertLegacyPOJ {
         "U2" to "Ú", "U3" to "Ù", "U5" to "Û", "U7" to "Ū", "U8" to "U̍",
         "u2" to "ú", "u3" to "ù", "u5" to "û", "u7" to "ū", "u8" to "u̍",
         "a9" to "ă", "i9" to "ĭ", "u9" to "ŭ", "e9" to "ĕ", "o9" to "ŏ", "oo9" to "ŏ͘",
+        "ii0" to "ṳ", "ii2" to "ṳ́", "ii3" to "ṳ̀", "ii4" to "ṳ", "ii5" to "ṳ̂", "ii7" to "ṳ̄", "ii8" to "ṳ̍",
+        "II0" to "Ṳ", "II2" to "Ṳ́", "II3" to "Ṳ̀", "II4" to "Ṳ", "II5" to "Ṳ̂", "II7" to "Ṳ̄", "II8" to "Ṳ̍",
         "m9" to "m̆", "n9" to "n̆g", "A9" to "Ă", "I9" to "Ĭ", "U9" to "Ŭ", "E9" to "Ĕ", "O9" to "Ŏ", "OU9" to "Ŏ͘", "M9" to "M̆", "N9" to "N̆g"
     )
 
@@ -368,6 +404,7 @@ object KonvertLegacyPOJ {
         """ò͘""" to """ou3""",
         """ô͘""" to """ou5""",
         """ō͘""" to """ou7""",
+        """o̍͘""" to """ou8""",
         """ŏ͘""" to """ou9""",
         """ú""" to """u2""",
         """ù""" to """u3""",
@@ -416,6 +453,7 @@ object KonvertLegacyPOJ {
         """Ò͘""" to """Ou3""",
         """Ô͘""" to """Ou5""",
         """Ō͘""" to """Ou7""",
+        """O̍͘""" to """Ou8""",
         """Ŏ͘""" to """Ou9""",
         """Ú""" to """U2""",
         """Ù""" to """U3""",
@@ -423,72 +461,58 @@ object KonvertLegacyPOJ {
         """Ū""" to """U7""",
         """U̍""" to """U8""",
         """Ŭ""" to """U9""",
-        """a""" to """a""",
         """á""" to """a2""",
         """à""" to """a3""",
         """â""" to """a5""",
         """ā""" to """a7""",
         """ă""" to """a9""",
-        """e""" to """e""",
         """é""" to """e2""",
         """è""" to """e3""",
         """ê""" to """e5""",
         """ē""" to """e7""",
         """ĕ""" to """e9""",
-        """i""" to """i""",
         """í""" to """i2""",
         """ì""" to """i3""",
         """î""" to """i5""",
         """ī""" to """i7""",
         """ĭ""" to """i9""",
-        """m""" to """m""",
         """ḿ""" to """m2""",
-        """n""" to """n""",
         """ń""" to """n2""",
         """ǹ""" to """n3""",
-        """o""" to """o""",
         """ó""" to """o2""",
         """ò""" to """o3""",
         """ô""" to """o5""",
         """ō""" to """o7""",
         """ŏ""" to """o9""",
-        """u""" to """u""",
         """ú""" to """u2""",
         """ù""" to """u3""",
         """û""" to """u5""",
         """ū""" to """u7""",
         """ŭ""" to """u9""",
         """ⁿ""" to """N""",
-        """A""" to """A""",
         """Á""" to """A2""",
         """À""" to """A3""",
         """Â""" to """A5""",
         """Ā""" to """A7""",
         """Ă""" to """A9""",
-        """E""" to """E""",
         """É""" to """E2""",
         """È""" to """E3""",
         """Ê""" to """E5""",
         """Ē""" to """E7""",
         """Ĕ""" to """E9""",
-        """I""" to """I""",
         """Í""" to """I2""",
         """Ì""" to """I3""",
         """Î""" to """I5""",
         """Ī""" to """I7""",
         """Ĭ""" to """I9""",
-        """M""" to """M""",
         """Ḿ""" to """M2""",
-        """N""" to """N""",
         """Ń""" to """N2""",
         """Ǹ""" to """N3""",
-        """O""" to """O""",
         """Ó""" to """O2""",
         """Ò""" to """O3""",
         """Ô""" to """O5""",
         """Ō""" to """O7""",
         """Ŏ""" to """O9""",
-        """U""" to """U""",
         """Ú""" to """U2""",
         """Ù""" to """U3""",
         """Û""" to """U5""",
@@ -581,6 +605,8 @@ object KonvertLegacyPOJ {
         "ou2" to "ó͘", "ou3" to "ò͘", "ou5" to "ô͘", "ou7" to "ō͘", "ou8" to "o̍͘", "ou9" to "ŏ͘", "ou" to "o͘",
         "u2" to "ú", "u3" to "ù", "u5" to "û", "u7" to "ū", "u8" to "u̍", "u9" to "ŭ",
         "nn" to "ⁿ", "N" to "ⁿ",
+        "ii" to "ṳ", "ii2" to "ṳ́", "ii3" to "ṳ̀", "ii5" to "ṳ̂", "ii8" to "ṳ̍",
+        "Ii" to "Ṳ", "Ii2" to "Ṳ́", "Ii3" to "Ṳ̀", "Ii5" to "Ṳ̂", "Ii8" to "Ṳ̍",
         "A2" to "Á", "A3" to "À", "A5" to "Â", "A7" to "Ā", "A8" to "A̍", "A9" to "Ă",
         "E2" to "É", "E3" to "È", "E5" to "Ê", "E7" to "Ē", "E8" to "E̍", "E9" to "Ĕ",
         "I2" to "Í", "I3" to "Ì", "I5" to "Î", "I7" to "Ī", "I8" to "I̍", "I9" to "Ĭ",
@@ -704,12 +730,103 @@ object KonvertLegacyPOJ {
         "Ð" to "Ù",         // U+00D0 → U3 (alternate)
     )
 
-    private fun convert(input: String, map: Map<String, String>): String {
-        var result = input
-        for ((k, v) in map) {
-            result = result.replace(k, v)
+    // --- NFC Normalization (pure Kotlin, covers POJ character set) ---
+
+    private fun getCCC(c: Char): Int = when (c) {
+        '\u0324' -> 220  // combining diaeresis below (for ṳ)
+        '\u0300', '\u0301', '\u0302', '\u0304', '\u0306', '\u030D' -> 230
+        '\u0358' -> 232  // combining dot above right (for o͘)
+        else -> 0
+    }
+
+    private val nfcCompositions: Map<Long, Char> = buildMap {
+        fun add(b: Char, m: Char, r: Char) { put(b.code.toLong() shl 16 or m.code.toLong(), r) }
+        // Lowercase
+        add('a','\u0301','á'); add('a','\u0300','à'); add('a','\u0302','â'); add('a','\u0304','ā'); add('a','\u0306','ă')
+        add('e','\u0301','é'); add('e','\u0300','è'); add('e','\u0302','ê'); add('e','\u0304','ē'); add('e','\u0306','ĕ')
+        add('i','\u0301','í'); add('i','\u0300','ì'); add('i','\u0302','î'); add('i','\u0304','ī'); add('i','\u0306','ĭ')
+        add('m','\u0301','ḿ')
+        add('n','\u0301','ń'); add('n','\u0300','ǹ')
+        add('o','\u0301','ó'); add('o','\u0300','ò'); add('o','\u0302','ô'); add('o','\u0304','ō'); add('o','\u0306','ŏ')
+        add('u','\u0301','ú'); add('u','\u0300','ù'); add('u','\u0302','û'); add('u','\u0304','ū'); add('u','\u0306','ŭ')
+        add('u','\u0324','ṳ')
+        // Uppercase
+        add('A','\u0301','Á'); add('A','\u0300','À'); add('A','\u0302','Â'); add('A','\u0304','Ā'); add('A','\u0306','Ă')
+        add('E','\u0301','É'); add('E','\u0300','È'); add('E','\u0302','Ê'); add('E','\u0304','Ē'); add('E','\u0306','Ĕ')
+        add('I','\u0301','Í'); add('I','\u0300','Ì'); add('I','\u0302','Î'); add('I','\u0304','Ī'); add('I','\u0306','Ĭ')
+        add('M','\u0301','Ḿ')
+        add('N','\u0301','Ń'); add('N','\u0300','Ǹ')
+        add('O','\u0301','Ó'); add('O','\u0300','Ò'); add('O','\u0302','Ô'); add('O','\u0304','Ō'); add('O','\u0306','Ŏ')
+        add('U','\u0301','Ú'); add('U','\u0300','Ù'); add('U','\u0302','Û'); add('U','\u0304','Ū'); add('U','\u0306','Ŭ')
+        add('U','\u0324','Ṳ')
+    }
+
+    private val nfcDecompositions: Map<Char, String> = buildMap {
+        put('á',"a\u0301"); put('à',"a\u0300"); put('â',"a\u0302"); put('ā',"a\u0304"); put('ă',"a\u0306")
+        put('é',"e\u0301"); put('è',"e\u0300"); put('ê',"e\u0302"); put('ē',"e\u0304"); put('ĕ',"e\u0306")
+        put('í',"i\u0301"); put('ì',"i\u0300"); put('î',"i\u0302"); put('ī',"i\u0304"); put('ĭ',"i\u0306")
+        put('ḿ',"m\u0301")
+        put('ń',"n\u0301"); put('ǹ',"n\u0300")
+        put('ó',"o\u0301"); put('ò',"o\u0300"); put('ô',"o\u0302"); put('ō',"o\u0304"); put('ŏ',"o\u0306")
+        put('ú',"u\u0301"); put('ù',"u\u0300"); put('û',"u\u0302"); put('ū',"u\u0304"); put('ŭ',"u\u0306")
+        put('ṳ',"u\u0324")
+        put('Á',"A\u0301"); put('À',"A\u0300"); put('Â',"A\u0302"); put('Ā',"A\u0304"); put('Ă',"A\u0306")
+        put('É',"E\u0301"); put('È',"E\u0300"); put('Ê',"E\u0302"); put('Ē',"E\u0304"); put('Ĕ',"E\u0306")
+        put('Í',"I\u0301"); put('Ì',"I\u0300"); put('Î',"I\u0302"); put('Ī',"I\u0304"); put('Ĭ',"I\u0306")
+        put('Ḿ',"M\u0301")
+        put('Ń',"N\u0301"); put('Ǹ',"N\u0300")
+        put('Ó',"O\u0301"); put('Ò',"O\u0300"); put('Ô',"O\u0302"); put('Ō',"O\u0304"); put('Ŏ',"O\u0306")
+        put('Ú',"U\u0301"); put('Ù',"U\u0300"); put('Û',"U\u0302"); put('Ū',"U\u0304"); put('Ŭ',"U\u0306")
+        put('Ṳ',"U\u0324")
+    }
+
+    internal fun normalizeNFC(input: String): String {
+        // Step 1: Canonical decomposition
+        val decomposed = StringBuilder(input.length)
+        for (ch in input) {
+            val d = nfcDecompositions[ch]
+            if (d != null) decomposed.append(d) else decomposed.append(ch)
         }
-        return result
+        // Step 2: Canonical ordering + composition
+        val result = StringBuilder(decomposed.length)
+        var i = 0
+        while (i < decomposed.length) {
+            val ch = decomposed[i]
+            if (getCCC(ch) > 0) {
+                result.append(ch); i++; continue
+            }
+            var j = i + 1
+            while (j < decomposed.length && getCCC(decomposed[j]) > 0) j++
+            if (j == i + 1) {
+                result.append(ch); i++; continue
+            }
+            val marks = (i + 1 until j).map { decomposed[it] }.sortedBy { getCCC(it) }
+            var base = ch
+            var prevCCC = 0
+            val remaining = mutableListOf<Char>()
+            for (mark in marks) {
+                val markCCC = getCCC(mark)
+                val composed = if (prevCCC < markCCC) {
+                    nfcCompositions[base.code.toLong() shl 16 or mark.code.toLong()]
+                } else null
+                if (composed != null) base = composed
+                else { remaining.add(mark); prevCCC = markCCC }
+            }
+            result.append(base)
+            for (mark in remaining) result.append(mark)
+            i = j
+        }
+        return result.toString()
+    }
+
+    // --- Conversion engine ---
+
+    private fun convert(input: String, map: Map<String, String>): String {
+        if (map.isEmpty()) return input
+        val normalized = normalizeNFC(input)
+        val sortedKeys = map.keys.sortedByDescending { it.length }
+        val pattern = sortedKeys.joinToString("|") { Regex.escape(it) }.toRegex()
+        return normalizeNFC(pattern.replace(normalized) { map[it.value]!! })
     }
 
     fun convertLegacyNumberFormatToUnicode(input: String): String = convert(input, numberToUnicodeMap)
